@@ -1,0 +1,30 @@
+{
+  "name": "rn10-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon api/start.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Careena12345/rn10-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Careena12345/rn10-node/issues"
+  },
+  "homepage": "https://github.com/Careena12345/rn10-node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "node": "^14.2.0",
+    "yargs": "^15.3.1"
+  },
+  "description": ""
+}
